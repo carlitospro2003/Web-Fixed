@@ -9,23 +9,33 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link rel="shortcut icon" href="assets/crown_logo_white.png" id="favicon" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&amp;display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://site-assets.fontawesome.com/releases/v6.1.0/css/all.css"
-    />
-    <link rel="stylesheet" href="css/styles.min.css" />
-    <link href="plugins/aos/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" href="plugins/fullPage.js-msater/fullpage.min.css" />
+    
+    <!-- Google Fonts Optimizado -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" as="style">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" media="print" onload="this.media='all'">
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
+    </noscript>
+
+    <!-- FontAwesome Optimizado -->
+    <link rel="preload" href="https://site-assets.fontawesome.com/releases/v6.1.0/css/all.css" as="style">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.0/css/all.css" media="print" onload="this.media='all'">
+    <noscript>
+      <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.0/css/all.css">
+    </noscript>
+
+    <!-- CSS Local Optimizado -->
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="preload" href="plugins/aos/aos.css" as="style">
+    <link rel="stylesheet" href="plugins/aos/aos.css" media="print" onload="this.media='all'">
+    <link rel="preload" href="plugins/fullPage.js-msater/fullpage.min.css" as="style">
+    <link rel="stylesheet" href="plugins/fullPage.js-msater/fullpage.min.css" media="print" onload="this.media='all'">
+
 
     <title>ReGeneration</title>
   </head>
@@ -42,7 +52,7 @@
       <section class="h-100 p-0" id="section_hero" aria-labelledby="hero-heading">
         <h1 id="hero-heading" class="sr-only">Hero Section</h1>
         <div class="h-100 w-100 bg-dark hero" id="intro_logo">
-          <img src="assets/crown_logo_white.png" class="img-sm" alt="Logo RE" id="logo_intro" loading="lazy" />
+          <img src="assets/crown_logo_white.png" class="img-sm" alt="Logo RE" id="logo_intro"/>
         </div>
 
         <div class="p-relative d-flex justify-content-center" id="hero">
